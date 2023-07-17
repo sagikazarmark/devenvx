@@ -9,6 +9,7 @@ in
   imports = [
     ./versions.nix
   ]
+  ++ (listEntries ./languages)
   ++ (listEntries ./tools)
   ;
 }
