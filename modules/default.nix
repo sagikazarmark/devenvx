@@ -10,6 +10,7 @@ in
     ./versions.nix
   ]
   ++ (listEntries ./languages)
+  ++ (listEntries ./services)
   ++ (listEntries ./tools)
   ;
 }
