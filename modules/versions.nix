@@ -1,4 +1,4 @@
-{ pkgs, lib, ... }:
+{ config, lib, ... }:
 
 let
   cfg = config.versions;
