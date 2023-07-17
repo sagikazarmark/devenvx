@@ -24,6 +24,10 @@
 
               modules = [
                 self.module
+
+                ({ pkgs, ... }: {
+                  # Add tests here
+                })
               ];
             };
           };
